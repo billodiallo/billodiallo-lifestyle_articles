@@ -14,12 +14,17 @@ class ArticlesController < ApplicationController
     @subjects = Category.all
     @category_options = Category.all.map { |cate| [cate.name, cate.id] }
   end
+#############################
+##############
+#########
+################
+############
 
   def create
     @article = current_user.articles.build(article_params)
     if @article.save
       redirect_to root_path
-      flash[:notice] = 'Your Movie article created!'
+      flash[:notice] = 'Your Game article created!'
     else
       render :new
     end
@@ -31,3 +36,7 @@ class ArticlesController < ApplicationController
     params.require(:article).permit(:title, :text, :image, :category_id)
   end
 end
+
+
+##########
+
