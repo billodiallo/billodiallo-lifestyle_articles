@@ -14,11 +14,6 @@ class ArticlesController < ApplicationController
     @subjects = Category.all
     @category_options = Category.all.map { |cate| [cate.name, cate.id] }
   end
-#############################
-##############
-#########
-################
-############
 
   def create
     @article = current_user.articles.build(article_params)
@@ -37,6 +32,4 @@ class ArticlesController < ApplicationController
   end
 end
 
-
-##########
 
