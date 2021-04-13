@@ -1,31 +1,28 @@
 AllCops:
+  NewCops: enable
   Exclude:
-    - "db/**/*"
-    - "bin/*" 
-    - "config/**/*"
     - "Guardfile"
     - "Rakefile"
     - "node_modules/**/*"
+    - bin/{rails,rake}'
+    - 'config/**/*'
+    - 'db/**/*'
+    - app/models/*.rb    
 
   DisplayCopNames: true
 
 Layout/LineLength:
   Max: 120
 Metrics/MethodLength:
-  Include:
-    - "app/controllers/*"
-    - "app/models/*"
   Max: 20
 Metrics/AbcSize:
-  Include:
-    - "app/controllers/*"
-    - "app/models/*"
   Max: 50
 Metrics/ClassLength:
   Max: 150
 Metrics/BlockLength:
-  ExcludedMethods: ['describe']
+  IgnoredMethods: ['describe']
   Max: 30
+
 
 Style/Documentation:
   Enabled: false
@@ -57,5 +54,6 @@ Style/HashTransformKeys:
   Enabled: false
 Style/HashTransformValues:
   Enabled: false
-Bundler/DuplicatedGem:
+Style:
   Enabled: false
+  
