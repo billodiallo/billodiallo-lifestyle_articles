@@ -10,4 +10,33 @@ RSpec.describe Article, type: :model do
         expect(category.priority).to eq(1)
       end
     end
-end
+
+    describe 'validations' do
+        subject do
+          Article.new(
+            title: 'Article one',
+            text: 'hello text',
+            creator_id: @user.id,
+            categorie_id: @categorie.id,
+            image_file_name: 'image.jpg',
+            image_content_type: 'image/jpg',
+            image_file_size: '8192',
+            image_updated_at: nil
+          )
+        end
+        describe 'Validations' do
+          it 'validate presence of creator ' do
+            expect { should validate_presence_of(:creator) }
+          end
+          it 'validate presence of title ' do
+            expect { should validate_presence_of(:title) }
+          end
+          it 'validate presence of text ' do
+            expect { should validate_presence_of(:text) }
+          end
+          it 'validate presence of text ' do
+            expect { should validate_presence_of(:categorie) }
+          end
+        end
+      end
+    end
