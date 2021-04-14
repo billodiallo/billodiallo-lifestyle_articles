@@ -83,8 +83,9 @@ module ApplicationHelper
     if user_signed_in?
       content_tag(:div, class: 'text-end d-flex flex-column flex-sm-row') do
         (link_to 'New Category', new_category_path, class: 'text-decoration-none link-dark fs-6 mx-1') +
-          (link_to 'New Movie', new_article_path, class: 'text-decoration-none link-dark fs-6 mx-3') +
-          (link_to 'Sign out', destroy_user_session_path, method: :delete, class: 'link-dark text-decoration-none mx-3')
+          (link_to 'New Game', new_article_path, class: 'text-decoration-none link-dark fs-6 mx-3') +
+          (link_to 'Sign out', destroy_user_session_path, method: :delete,
+                                                          class: 'link-dark text-decoration-none mx-3')
       end
     else
       content_tag(:div, class: 'd-flex justify-content-end') do
@@ -103,3 +104,4 @@ module ApplicationHelper
     end
   end
 end
+
