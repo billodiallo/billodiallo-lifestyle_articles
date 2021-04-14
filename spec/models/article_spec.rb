@@ -17,7 +17,7 @@ RSpec.describe Article, type: :model do
             title: 'Article one',
             text: 'hello text',
             creator_id: @user.id,
-            categorie_id: @categorie.id,
+            categorie_id: @category.id,
             image_file_name: 'image.jpg',
             image_content_type: 'image/jpg',
             image_file_size: '8192',
