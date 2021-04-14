@@ -1,3 +1,4 @@
+# rubocop:disable all
 require 'rails_helper'
 RSpec.describe 'Create article proccess', type: :system do
   before do

@@ -1,3 +1,4 @@
+# rubocop:disable all
 require 'rails_helper'
 RSpec.describe Vote, type: :model do
   describe 'ActiveRecord associations' do

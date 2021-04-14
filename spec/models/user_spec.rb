@@ -1,3 +1,4 @@
+# rubocop:disable all
 require 'rails_helper'
 RSpec.describe User, type: :model do
   let(:user) { User.create(name: 'billo', email: 'billoa12@gmail.com', password: '123456') }
