@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: sanankoro
+  api_key: '494115374318848'
+  api_secret: XXWJOgwGHLLknP_XB_s89XLIAM0
+  enhance_image_tag: true
+  static_file_support: false
+production:
+  cloud_name: sanankoro
+  api_key: '494115374318848'
+  api_secret: XXWJOgwGHLLknP_XB_s89XLIAM0
+  enhance_image_tag: true
+  static_file_support: true
+test:
+  cloud_name: sanankoro
+  api_key: '494115374318848'
+  api_secret: XXWJOgwGHLLknP_XB_s89XLIAM0
+  enhance_image_tag: true
+  static_file_support: false
