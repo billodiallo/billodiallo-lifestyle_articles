@@ -1,114 +1,24 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+# README
 
-# CAPSTONE PROJECT MICROVERSE TRAINING
-<p align="center">
-    This project is the Capstone of the Microverse curriculum at the end of the Ruby on Rails module!
-  </p>
+This README would normally document whatever steps are necessary to get the
+application up and running.
 
- -  Users can create categories and football game of their choice :
- - create football article and give title, description and a photo about it and other users can vote for the movies they like.
+Things you may want to cover:
 
-## Built With
+* Ruby version
 
-- Ruby v3.0.0
-- Ruby on Rails v6.1.3
+* System dependencies
 
-## Sreenshot
+* Configuration
 
-## Live Demo
+* Database creation
 
-Dployement 
-[Lifestyle Article ]()
+* Database initialization
 
+* How to run the test suite
 
-## Getting Started
+* Services (job queues, cache servers, search engines, etc.)
 
-To get a local copy up and running follow these simple example steps.
+* Deployment instructions
 
-### Prerequisites
-
-Ruby: 3.0.0
-Rails: 6.1.3
-Postgres: >=9.5
-
-### Setup
-
-Instal gems with:
-
-```
-bundle install
-```
-
-Setup database with:
-
-```
-   rails db:create
-   rails db:migrate
-```
-
-### Github Actions
-
-### Usage
-
-To use THIS  project :
-* Have ruby installed in your computer
-* [Download]https://github.com/billodiallo/lifestyle_articles.git) or clone this repo:
-  - Clone with SSH:
-  ```
-  git@github.com:billodiallo/lifestyle_articles.git
-  ```
-- Clone with HTTPS
-  ```
-    https://billodiallo/lifestyle_articles.git
-* `cd` into `lifestyle_articles`
-
-
-Start server with:
-
-```
-    rails server
-```
-
-Open `http://localhost:3000/` in your browser.
-
-### Run tests
-
-```
-    rpsec --format documentation
-```
-
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
-
-### Deployment
-
-
-
-## Authors
-
-
-👤 Billo Dallio
-
-- GitHub: [@billodiallo](https://github.com/billodiallo)
-- Twitter: [@BilloDi83547008](https://twitter.com/BilloDi83547008)
-- LinkedIn: [Billo Diallo](https://www.linkedin.com/in/mabillodiallo/)
-
-
-
-## 🤝 Contributing
-
-Contributions, issues and feature requests are welcome!
-
-Feel free to check the [issues page](issues/).
-
-## Show your support
-
-Give a ⭐️ if you like this project!
-
-## Acknowledgments
-
-TBA
-
-## 📝 License
-
-TBA
-
+* ...
