@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rubocop:disable all
 class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
@@ -13,4 +14,7 @@ class ApplicationController < ActionController::Base
       u.permit(:name, :email, :password, :current_password)
     end
   end
+=======
+class ApplicationController < ActionController::Base
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
 end

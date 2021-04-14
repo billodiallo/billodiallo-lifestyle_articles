@@ -1,4 +1,7 @@
+<<<<<<< HEAD
 # rubocop:disable all
+=======
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
 #!/usr/bin/env ruby
 # frozen_string_literal: true
 
@@ -25,7 +28,10 @@ m = Module.new do
   def cli_arg_version
     return unless invoked_as_script? # don't want to hijack other binstubs
     return unless "update".start_with?(ARGV.first || " ") # must be running `bundle update`
+<<<<<<< HEAD
 
+=======
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
     bundler_version = nil
     update_index = nil
     ARGV.each_with_index do |a, i|
@@ -33,7 +39,10 @@ m = Module.new do
         bundler_version = a
       end
       next unless a =~ /\A--bundler(?:[= ](#{Gem::Version::VERSION_PATTERN}))?\z/
+<<<<<<< HEAD
 
+=======
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
       bundler_version = $1
       update_index = i
     end
@@ -58,17 +67,26 @@ m = Module.new do
 
   def lockfile_version
     return unless File.file?(lockfile)
+<<<<<<< HEAD
 
     lockfile_contents = File.read(lockfile)
     return unless lockfile_contents =~ /\n\nBUNDLED WITH\n\s{2,}(#{Gem::Version::VERSION_PATTERN})\n/
 
+=======
+    lockfile_contents = File.read(lockfile)
+    return unless lockfile_contents =~ /\n\nBUNDLED WITH\n\s{2,}(#{Gem::Version::VERSION_PATTERN})\n/
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
     Regexp.last_match(1)
   end
 
   def bundler_version
     @bundler_version ||=
       env_var_version || cli_arg_version ||
+<<<<<<< HEAD
       lockfile_version
+=======
+        lockfile_version
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
   end
 
   def bundler_requirement
@@ -96,12 +114,18 @@ m = Module.new do
       gem "bundler", bundler_requirement
     end
     return if gem_error.nil?
+<<<<<<< HEAD
 
+=======
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
     require_error = activation_error_handling do
       require "bundler/version"
     end
     return if require_error.nil? && Gem::Requirement.new(bundler_requirement).satisfied_by?(Gem::Version.new(Bundler::VERSION))
+<<<<<<< HEAD
 
+=======
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
     warn "Activating bundler (#{bundler_requirement}) failed:\n#{gem_error.message}\n\nTo install the version of bundler this project requires, run `gem install bundler -v '#{bundler_requirement}'`"
     exit 42
   end

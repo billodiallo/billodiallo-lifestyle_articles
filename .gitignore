@@ -7,10 +7,13 @@
 # Ignore bundler config.
 /.bundle
 
+<<<<<<< HEAD
 # Ignore the default SQLite database.
 /db/*.sqlite3
 /db/*.sqlite3-*
 
+=======
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
 # Ignore all logfiles and tempfiles.
 /log/*
 /tmp/*
@@ -38,9 +41,12 @@
 /yarn-error.log
 yarn-debug.log*
 .yarn-integrity
+<<<<<<< HEAD
 .env
 
 # Ignore application configuration
 /config/application.yml
 /config/cloudinary.yml
 
+=======
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61

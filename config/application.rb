@@ -6,7 +6,11 @@ require "rails/all"
 # you've limited to :test, :development, or :production.
 Bundler.require(*Rails.groups)
 
+<<<<<<< HEAD
 module LifeStyle
+=======
+module Lifestyle
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
   class Application < Rails::Application
     # Initialize configuration defaults for originally generated Rails version.
     config.load_defaults 6.1

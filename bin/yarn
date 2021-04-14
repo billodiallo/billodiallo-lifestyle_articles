@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rubocop:disable all
 #!/usr/bin/env ruby
 APP_ROOT = File.expand_path('..', __dir__)
@@ -7,6 +8,16 @@ Dir.chdir(APP_ROOT) do
     .product(["yarn", "yarn.cmd", "yarn.ps1"])
     .map { |dir, file| File.expand_path(file, dir) }
     .find { |file| File.executable?(file) }
+=======
+#!/usr/bin/env ruby
+APP_ROOT = File.expand_path('..', __dir__)
+Dir.chdir(APP_ROOT) do
+  yarn = ENV["PATH"].split(File::PATH_SEPARATOR).
+    select { |dir| File.expand_path(dir) != __dir__ }.
+    product(["yarn", "yarn.cmd", "yarn.ps1"]).
+    map { |dir, file| File.expand_path(file, dir) }.
+    find { |file| File.executable?(file) }
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
 
   if yarn
     exec yarn, *ARGV

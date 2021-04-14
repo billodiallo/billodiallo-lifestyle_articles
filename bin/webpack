@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rubocop:disable all
 #!/usr/bin/env ruby
 
@@ -7,6 +8,16 @@ ENV["NODE_ENV"] ||= "development"
 require "pathname"
 ENV["BUNDLE_GEMFILE"] ||= File.expand_path("../../Gemfile",
                                            Pathname.new(__FILE__).realpath)
+=======
+#!/usr/bin/env ruby
+
+ENV["RAILS_ENV"] ||= ENV["RACK_ENV"] || "development"
+ENV["NODE_ENV"]  ||= "development"
+
+require "pathname"
+ENV["BUNDLE_GEMFILE"] ||= File.expand_path("../../Gemfile",
+  Pathname.new(__FILE__).realpath)
+>>>>>>> d4f82640f7d0c0995a1a62a915d27c292bf32c61
 
 require "bundler/setup"
 
