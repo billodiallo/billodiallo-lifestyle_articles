@@ -9,15 +9,15 @@ gem 'devise'
 
 gem 'rexml'
 
-gem 'image_processing', '~> 1.2'
+# gem 'image_processing', '~> 1.2'
 
-gem 'shrine', '~> 3.3'
+# gem 'shrine', '~> 3.3'
 
-gem 'shrine-cloudinary', '~> 1.1'
+# gem 'shrine-cloudinary', '~> 1.1'
 
-gem 'cloudinary'
+# gem 'cloudinary'
 
-gem 'figaro'
+# gem 'figaro'
 
 gem 'htmlbeautifier'
 
