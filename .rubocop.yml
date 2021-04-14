@@ -7,7 +7,8 @@ AllCops:
     - bin/{rails,rake}'
     - 'config/**/*'
     - 'db/**/*'
-    - app/models/*.rb    
+    - app/models/*.rb 
+    - 'test/**/*'   
 
   DisplayCopNames: true
 

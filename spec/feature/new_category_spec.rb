@@ -30,4 +30,3 @@ RSpec.describe 'the signin process', type: :system do
     expect(page).not_to have_text('category created')
   end
 end
-
