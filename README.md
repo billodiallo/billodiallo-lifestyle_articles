@@ -18,7 +18,7 @@
 ## Live Demo
 
 Dployement 
-[Lifestyle Article ]()
+[Lifestyle Article ](https://polar-woodland-81679.herokuapp.com/)
 ![11](https://user-images.githubusercontent.com/11162987/114758099-446a3180-9d65-11eb-9619-b8d2ea3bdb79.JPG)
 ![22](https://user-images.githubusercontent.com/11162987/114758106-459b5e80-9d65-11eb-943c-f3328af5653f.JPG)
 ![333](https://user-images.githubusercontent.com/11162987/114758107-4633f500-9d65-11eb-9073-6eea205eae81.JPG)
@@ -43,7 +43,9 @@ Instal gems with:
 ```
 bundle install
 ```
-
+```
+rails webpacker:install
+```
 Setup database with:
 
 ```
@@ -76,13 +78,13 @@ Start server with:
 
 Open `http://localhost:3000/` in your browser.
 
+## Rspec Test method 
+
 ### Run tests
 
 ```
     rpsec --format documentation
 ```
-
-> Tests will be added by Microverse students. There are no tests for initial features in order to make sure that students write all tests from scratch.
 
 ### Deployment
 
