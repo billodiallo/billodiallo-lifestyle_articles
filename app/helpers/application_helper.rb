@@ -1,4 +1,3 @@
-# rubocop:disable all
 module ApplicationHelper
   def alert_notice
     return unless notice

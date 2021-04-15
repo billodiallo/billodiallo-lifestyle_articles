@@ -1,11 +1,10 @@
-# rubocop:disable all
 class VotesController < ApplicationController
   before_action :authenticate_user!
   def create
-    @vote = current_user.votes.build(article_id: params[:article_id])
+    @vote = current_user.votes.new(article_id: params[:article_id])
     @article = Article.find_by(id: @vote.article.id)
     if @vote.save
-      redirect_to root_path
+      redirect_to category_path(@article.category)
       flash[:notice] = 'You Voted this article'
     else
       flash[:notice] = 'Somthing happened'

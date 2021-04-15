@@ -1,4 +1,3 @@
-# rubocop:disable all
 class ArticlesController < ApplicationController
   before_action :authenticate_user!
   include ArticlesHelper
