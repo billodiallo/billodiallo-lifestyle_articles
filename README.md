@@ -85,12 +85,11 @@ Start server with:
 
 Open `http://localhost:3000/` in your browser.
 
-## Rspec Test method 
 
 ### Run tests
 
 ```
-    rpsec --format documentation
+    rspec --format documentation
 ```
 
 ### Deployment
