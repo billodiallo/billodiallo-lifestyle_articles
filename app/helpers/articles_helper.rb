@@ -19,7 +19,7 @@ module ArticlesHelper
     if vote
       content_tag(:div) do
         link_to article_vote_path(article), method: :delete,
-                                                       class: 'text-decoration-none link-dark fs-5 mx-2' do
+                                            class: 'text-decoration-none link-dark fs-5 mx-2' do
           raw('<i class="fas fa-thumbs-down"></i>')
         end
       end
