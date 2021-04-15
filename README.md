@@ -16,6 +16,33 @@
 ## Sreenshot
 
 
+![register](https://user-images.githubusercontent.com/11162987/114926121-a778c880-9e38-11eb-9602-72989696b75c.JPG)
+![Sign in](https://user-images.githubusercontent.com/11162987/114926124-a778c880-9e38-11eb-84c6-e9be5baf7c2d.JPG)
+
+[Rspec test ](https://user-images.githubusercontent.com/11162987/114926099-a2b41480-9e38-11eb-8ee3-d9fbaf0ba358.JPG)
+
+
+![capi](https://user-images.githubusercontent.com/11162987/114926104-a47dd800-9e38-11eb-92e6-8c58ce2eec28.JPG)
+![cp3](https://user-images.githubusercontent.com/11162987/114926111-a5af0500-9e38-11eb-8f9d-aa06579b0d3d.JPG)
+
+
+![footer](https://user-images.githubusercontent.com/11162987/114926113-a6479b80-9e38-11eb-9986-5b38ed3a778b.JPG)
+![home](https://user-images.githubusercontent.com/11162987/114926117-a6e03200-9e38-11eb-8d5c-6d7937342159.JPG)
+!
+
+
+![category](https://user-images.githubusercontent.com/11162987/114926108-a5166e80-9e38-11eb-8c00-61799679a710.JPG)
+
+![footer](https://user-images.githubusercontent.com/11162987/114926113-a6479b80-9e38-11eb-9986-5b38ed3a778b.JPG)
+![home](https://user-images.githubusercontent.com/11162987/114926117-a6e03200-9e38-11eb-8d5c-6d7937342159.JPG)
+!
+
+
+
+
+
+
+
 ## Live Demo
 Deployment 
 [Lifestyle Article ](https://polar-woodland-81679.herokuapp.com/)
