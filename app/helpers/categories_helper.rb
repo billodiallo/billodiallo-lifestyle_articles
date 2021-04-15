@@ -1,3 +1,4 @@
+# rubocop:disable all
 module CategoriesHelper
   def latest(category)
     return unless category.articles.last

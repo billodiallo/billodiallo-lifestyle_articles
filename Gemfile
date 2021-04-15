@@ -19,8 +19,8 @@ gem 'figaro'
 
 gem 'htmlbeautifier'
 
-gem 'will_paginate', '~> 3.3.0'
 gem 'pg'
+gem 'will_paginate', '~> 3.3.0'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails', branch: 'main'
 gem 'rails', '~> 6.1.3', '>= 6.1.3.1'
@@ -75,7 +75,7 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  # gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
