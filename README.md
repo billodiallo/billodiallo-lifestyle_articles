@@ -52,6 +52,13 @@ Setup database with:
    rails db:create
    rails db:migrate
 ```
+## Set up Cloudinary 
+- Create a file name: cloudinary.yml
+- add the settings with multiple environnements(development,production,test)
+-  inside cloudinary.yml  copy those  parameters in the file
+-  path: /docs/cloudinary_info
+- Stop/start the server
+
 
 ### Github Actions
 
