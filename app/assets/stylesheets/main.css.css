@@ -26,6 +26,7 @@
 
 .login-photo {
   background-image: url("cavani.jpg");
+  background-background-repeat: no-repeat;
   background-margin: auto;
   background-width: 100%;
   background-height: 1233vh;
