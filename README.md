@@ -16,8 +16,10 @@
 ## Sreenshot
 
 
-![register](https://user-images.githubusercontent.com/11162987/114926121-a778c880-9e38-11eb-9602-72989696b75c.JPG)
-![Sign in](https://user-images.githubusercontent.com/11162987/114926124-a778c880-9e38-11eb-84c6-e9be5baf7c2d.JPG)
+
+![singup2](https://user-images.githubusercontent.com/11162987/115029857-16a0fc00-9ecf-11eb-8499-6e30db98cab5.JPG)
+![loginnew](https://user-images.githubusercontent.com/11162987/115029868-1acd1980-9ecf-11eb-9bfb-8c122dc36bc2.JPG)
+
 
 [Rspec test ](https://user-images.githubusercontent.com/11162987/114926099-a2b41480-9e38-11eb-8ee3-d9fbaf0ba358.JPG)
 
