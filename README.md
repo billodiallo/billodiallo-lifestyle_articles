@@ -6,7 +6,7 @@
   </p>
 
  -  Users can create categories and football game of their choice :
- - create football article and give title, description and a photo about it and other users can vote for the movies they like.
+ - create football article and give title, description and a photo about it and other users can vote for the football article they like.
 
 ## Built With
 
