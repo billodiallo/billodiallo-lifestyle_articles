@@ -46,6 +46,7 @@
 .register {
   background: {
     image: url("big2.jpg");
+    background-repeat: no-repeat;
     margin: auto;
     width: 100%;
     height: 1233vh;
@@ -68,3 +69,8 @@
 .cont {
   min-height: 80vh;
 }
+
+form label{
+  color: #fff;
+}
+
