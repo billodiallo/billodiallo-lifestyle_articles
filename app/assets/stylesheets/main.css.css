@@ -25,7 +25,8 @@
 }
 
 .login-photo {
-  background-image: url("back.jpg");
+  background-image: url("cavani.jpg");
+  background-background-repeat: no-repeat;
   background-margin: auto;
   background-width: 100%;
   background-height: 1233vh;
@@ -36,7 +37,8 @@
 }
 
 .register {
-  background-image: url("register.jpg");
+  background-image: url("big2.jpg");
+  background-background-repeat: no-repeat;
   background-margin: auto;
   background-width: 100%;
   background-height: 1233vh;
@@ -57,5 +59,9 @@
 
 .cont {
   min-height: 80vh;
+}
+
+form label {
+  color: #fff;
 }
 /*# sourceMappingURL=main.css.css.map */

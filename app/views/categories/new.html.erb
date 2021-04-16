@@ -4,9 +4,9 @@
       <%= render "devise/shared/error_messages", resource: @category %>
     </div>
     <%= form_with model: @category do |f| %>
-      <div class=' mx-3 bg-danger text-white'>
-        Drop YOUR Football Category
-        <%= f.text_field :name,placeholder:'name', class:' opacity1 form-control my-3' %>
+      <div class=' mx-3 text-light'>
+        Create your category:))
+        <%= f.text_field :name,placeholder:'name', class:'opacity1 form-control my-3' %>
       </div>
       <%= f.submit :create, class:'mx-3 my-2 text-center opacity1 ' %>
     <% end %>

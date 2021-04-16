@@ -19,7 +19,7 @@ RSpec.describe 'Create article proccess', type: :system do
   end
 
   it 'Create article' do
-    user1 = User.create(name: 'billo', email: 'billo@email.com', password: '123456')
+    user1 = User.create(name: 'moussa', email: 'moussa@gmail.com', password: '123456')
     visit root_path
     click_link_or_button 'Sign in'
     fill_in 'user[email]', with: user1.email
@@ -32,26 +32,27 @@ RSpec.describe 'Create article proccess', type: :system do
     click_link_or_button 'New Game'
     fill_in 'Title', with: 'champions league'
     fill_in 'Text', with: ' will win again Real madrid'
-    attach_file 'Image', "#{Rails.root}/app/assets/images/seriea.jpg"
+    attach_file 'Image', "#{Rails.root}/app/assets/images/ball.jpg"
     click_button 'create'
     expect(page).to have_text('Your Game article created!')
   end
   it 'Create article' do
-    user1 = User.create(name: 'billo', email: 'billo@email.com', password: '123456')
+    user1 = User.create(name: 'john', email: 'john@gmail.com', password: '123456')
     visit root_path
     click_link_or_button 'Sign in'
     fill_in 'user[email]', with: user1.email
     fill_in 'user[password]', with: '123456'
     click_button 'Log in'
     click_link_or_button 'New Category'
-    fill_in 'name', with: 'Paris'
+    fill_in 'name', with: 'liga'
     click_button 'create'
     expect(page).to have_text('category created')
     click_link_or_button 'New Game'
     fill_in 'Title', with: 'champions league'
-    fill_in 'Text', with: ' Bayern vs Psg'
-    attach_file 'Image', "#{Rails.root}/app/assets/images/seriea.jpg"
+    fill_in 'Text', with: 'liverpool out'
+    attach_file 'Image', "#{Rails.root}/app/assets/images/3.jpg"
     click_button 'create'
     expect(page).to have_text('Your Game article created!')
   end
+
 end

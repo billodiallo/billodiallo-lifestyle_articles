@@ -2,11 +2,11 @@
 <%= render 'layouts/alerts' %>
 <div class='container-fluid'>
 
-  <div class='row mx-2'>
+  <div class='row '>
    <%= render 'articles/feature' %>
   </div>
 
-  <div class='row p-0'>
+  <div class='row '>
     <% @categories.reverse_each do |category| %>
       <%= all_categories(category) %>
     <% end %>
